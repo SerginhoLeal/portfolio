@@ -4,11 +4,11 @@ import * as Styles from './styles';
 
 import Me from "../../../assets/img/presentation_Image.png";
 
-import Discord from "../../../assets/svg/Discord.svg";
-import Instagram from "../../../assets/svg/Instagram.svg";
-import Linkedin from "../../../assets/svg/Linkedin.svg";
-import Whatsapp from "../../../assets/svg/Whatsapp.svg";
-import Github from "../../../assets/svg/Github.svg";
+import Discord from "../../../assets/svg/discord.svg";
+import Instagram from "../../../assets/svg/instagram.svg";
+import Linkedin from "../../../assets/svg/linkedin.svg";
+import Whatsapp from "../../../assets/svg/whatsapp.svg";
+import Github from "../../../assets/svg/github.svg";
 
 import { Title, Text } from '../../../common';
 
