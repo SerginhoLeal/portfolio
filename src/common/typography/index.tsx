@@ -13,17 +13,18 @@ const prefix = css`
 
 export const Text = styled.p<TextProps>`
   ${prefix};
-  ${({ color = 'primary', fontSize = 'medium', fontWeight = 'bold' }: TextProps) => css`
+  ${({ color = 'primary', fontSize = 'medium', fontWeight = 'medium' }: TextProps) => css`
     color: ${_color[color]};
     font-size: ${_fontSize[fontSize]};
-    font-weight: ${_fontWeight[fontWeight]};;
+    font-weight: ${_fontWeight[fontWeight]};
   `}
 `;
 
 export const Title = styled.h1<TextProps>`
   ${prefix};
-  ${({ color = 'primary', fontSize = 'xxxlarge' }: TextProps) => css`
+  ${({ color = 'primary', fontSize = 'medium', fontWeight = 'medium' }: TextProps) => css`
     color: ${_color[color]};
     font-size: ${_fontSize[fontSize]};
+    font-weight: ${_fontWeight[fontWeight]};
   `}
 `;
