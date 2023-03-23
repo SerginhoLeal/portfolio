@@ -1,7 +1,5 @@
 import React from 'react';
 
-import * as Styles from './styles';
-
 import About from './screens/about';
 import Presentation from './screens/presentation';
 import HardSkills from './screens/skills';

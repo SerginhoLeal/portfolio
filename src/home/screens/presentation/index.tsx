@@ -15,10 +15,6 @@ import { Title, Text } from '../../../common';
 const Presentation: React.FC = () => {
   return (
     <Styles.Main>
-      {/* <Header /> */}
-      {/* <Styles.ImageMe src={Me} alt='' />
-      <Text fontSize='small' fontWeight='medium'>Software Engineer & Designer</Text>
-      <Text fontSize='xsmall' fontWeight='light'>Portfolio in progress...</Text> */}
 
       <Styles.Content>
         <Styles.Title>

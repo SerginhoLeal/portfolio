@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import Wallpaper from "../../../assets/img/wallpaper2.png";
 
 export const Main = styled.main`
   display: flex;
@@ -9,11 +8,32 @@ export const Main = styled.main`
 
   justify-content: space-evenly;
   align-items: center;
-  /* flex-direction: column; */
+
+  @media screen and (max-width: 700px) {
+    flex-direction: column-reverse;
+    justify-content: center;
+
+    svg {
+      display: none;
+    }
+  }
 `;
 
 export const Content = styled.div`
   position: relative;
+
+  text-align: center;
+`;
+
+export const Image = styled.div`
+  /* width: 100%; */
+  /* display: flex; */
+
+  @media screen and (max-width: 1000px) {
+    img {
+      width: 330px;
+    }
+  }
 `;
 
 export const Hexagon = styled.div`
@@ -21,6 +41,12 @@ export const Hexagon = styled.div`
 
   top: -120px;
   left: 165px;
+
+  @media screen and (max-width: 1000px) {
+    svg {
+      width: 150px;
+    }
+  }
 `;
 
 export const Dodecaedro = styled.div`
@@ -28,6 +54,14 @@ export const Dodecaedro = styled.div`
 
   top: 00px;
   left: -80px;
+
+  @media screen and (max-width: 1000px) {
+    top: 00px;
+    left: -50px;
+    svg {
+      width: 150px;
+    }
+  }
 `;
 
 export const Nonagon = styled.div`
@@ -37,11 +71,18 @@ export const Nonagon = styled.div`
   right: -50px;
   
   z-index: -1;
+
+  @media screen and (max-width: 1000px) {
+    top: 100px;
+    right: -10px;
+
+    svg {
+      width: 150px;
+    };
+  }
 `;
 
 export const Title = styled.div``;
-
-export const Image = styled.div``;
 
 export const ImageMe = styled.img`
   width: 300px;
