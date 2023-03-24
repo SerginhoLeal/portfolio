@@ -8,6 +8,11 @@ export const Container = styled.section`
   width: 100%;
 
   padding: 50px 0;
+
+  @media screen and (max-width: 700px) {
+    align-items: center;
+    flex-direction: column;
+  };
 `;
 
 export const Card = styled.button`
@@ -26,8 +31,12 @@ export const Card = styled.button`
   justify-content: center;
 
   border: 0;
-  cursor: pointer;
+  /* cursor: pointer; */
 
   background-color: #fff;
   box-shadow: .5px .5px 2px .5px #dedede;
+
+  @media screen and (max-width: 700px) {
+    margin-bottom: 10px;
+  };
 `;

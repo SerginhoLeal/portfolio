@@ -14,6 +14,10 @@ export const Container = styled.div`
   box-shadow: 1px 1px 5px #DEDEDE;
 
   padding: 0 50px;
+
+  @media screen and (max-width: 400px) {
+    padding: 0 20px;
+  };
 `;
 
 export const Navigation = styled.nav<NavigationProps>`
@@ -71,7 +75,7 @@ export const Navigation = styled.nav<NavigationProps>`
     `};
   };
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 900px) {
     a {
       padding: 20px;
     };
