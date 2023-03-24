@@ -22,9 +22,8 @@ const Presentation: React.FC = () => {
           <Title style={{ marginTop: -15 }} fontSize='extraLarge' fontWeight='bold'>Designer</Title>
         </Styles.Title>
 
-        <Text fontSize='small' fontWeight='medium' color='text'>
-          Software Engineer Web & Mobile, Designer and active {<br />}
-          in the job market since Oct/2020 at {<a target="_blank" href='https://compass.uol/en/home/' style={{ color: '#FF674D', zIndex: 1}}>Compass.UOL</a>}
+        <Text style={{ maxWidth: 450 }} fontSize='small' fontWeight='medium' color='text'>
+          Software Engineer Web & Mobile, Designer and active in the job market since Oct/2020 at {<a target="_blank" href='https://compass.uol/en/home/' style={{ color: '#FF674D', zIndex: 1}}>Compass.UOL</a>}
         </Text>
 
         <Styles.Contacts>
