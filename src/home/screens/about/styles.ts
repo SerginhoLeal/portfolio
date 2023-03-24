@@ -12,6 +12,10 @@ export const Container = styled.section`
 
   justify-content: space-evenly;
   align-items: center;
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+  };
 `;
 
 export const Skills = styled.div`
@@ -23,6 +27,11 @@ export const Skills = styled.div`
 
   border-radius: 2px;
   box-shadow: .5px .5px 2px .5px #dedede;
+
+  @media screen and (max-width: 800px) {
+    margin-top: 20px;
+    flex-direction: column;
+  };
 `;
 
 export const Graph = styled.div`

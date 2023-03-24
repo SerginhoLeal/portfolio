@@ -9,13 +9,17 @@ export const Main = styled.main`
   justify-content: space-evenly;
   align-items: center;
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 800px) {
     flex-direction: column-reverse;
     justify-content: center;
 
     svg {
       display: none;
     }
+
+    /* p {
+      font-size: 2px;
+    } */
   }
 `;
 
@@ -29,7 +33,7 @@ export const Image = styled.div`
   /* width: 100%; */
   /* display: flex; */
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1100px) {
     img {
       width: 330px;
     }
@@ -42,7 +46,7 @@ export const Hexagon = styled.div`
   top: -120px;
   left: 165px;
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1100px) {
     svg {
       width: 150px;
     }
@@ -55,7 +59,7 @@ export const Dodecaedro = styled.div`
   top: 00px;
   left: -80px;
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1100px) {
     top: 00px;
     left: -50px;
     svg {
@@ -72,7 +76,7 @@ export const Nonagon = styled.div`
   
   z-index: -1;
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1100px) {
     top: 100px;
     right: -10px;
 

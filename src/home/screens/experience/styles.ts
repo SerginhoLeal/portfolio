@@ -8,16 +8,18 @@ export const Container = styled.section`
   width: 100%;
 
   padding: 50px 0;
+
+  @media screen and (max-width: 700px) {
+    flex-direction: column;
+  };
 `;
 
 export const Card = styled.div`
   display: flex;
 
-  padding: 1px;
-  margin: 0 5px;
+  margin: 5px;
 
   width: 500px;
-  /* height: 200px; */
 
   border-radius: 2px;
 
@@ -27,6 +29,14 @@ export const Card = styled.div`
 
   background-color: #fff;
   box-shadow: .5px .5px 2px .5px #dedede;
+
+  @media screen and (max-width: 700px) {
+    width: auto;
+
+    :nth-child(2){
+      margin-bottom: 50px;
+    }
+  }
 `;
 
 export const Header = styled.div`
@@ -62,8 +72,6 @@ export const Content = styled.div`
 
 export const Info = styled.div`
   margin-left: 19px;
-
-  /* display: ; */
 
   p {
     :nth-child(2){

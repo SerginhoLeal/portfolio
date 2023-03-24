@@ -23,7 +23,7 @@ const Home: React.FC = () => {
   return (
     <React.Fragment>
 
-      <Header />
+      {/* <Header /> */}
 
       <Presentation />
 
