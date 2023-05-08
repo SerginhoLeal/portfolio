@@ -10,7 +10,7 @@ export const Container = styled.section`
 
   padding: 50px 0;
 
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 
   @media screen and (max-width: 800px) {
@@ -21,6 +21,8 @@ export const Container = styled.section`
 export const Skills = styled.div`
   display: flex;
 
+  width: 70%;
+
   align-items: center;
 
   padding: 10px;
@@ -28,8 +30,14 @@ export const Skills = styled.div`
   border-radius: 2px;
   box-shadow: .5px .5px 2px .5px #dedede;
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1000px) {
+    width: 60%;
     margin-top: 20px;
+    flex-direction: column;
+  };
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
     flex-direction: column;
   };
 `;
@@ -42,6 +50,12 @@ export const Graph = styled.div`
   margin: 20px;
 
   height: 100%;
+
+  width: 50%;
+
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+  };
 `;
 
 export const ContentTrack = styled.div`
@@ -59,6 +73,10 @@ export const Track = styled.div`
   ${({ }) => css`
     background-color: #EDEDED;
   `};
+
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+  };
 `;
 
 export const Knob = styled.div<ProgressProps>`
@@ -70,4 +88,8 @@ export const Knob = styled.div<ProgressProps>`
     width: ${progress}%;
     background-color: #FF674D;
   `};
+`;
+
+export const Presentation = styled.div`
+  /* width: 40%; */
 `;
