@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 
 import * as Styles from './styles';
 
-import { Text, Icon, Tag, Modal } from '../../../common';
+import { Text, Icon, Tag } from '../../../common';
 import { skills } from './constants';
 
 const Skills: React.FC = () => {
@@ -19,12 +19,11 @@ const Skills: React.FC = () => {
             <Text fontSize='xsmall' color='dark_gray'>{description}</Text>
             <span>
               {logos.map(items =>
-                <img
-                  src={items.svg}
-                  onClick={() => window.open(items.url, '_blank')}
-                  style={{ height: 20, margin: '0px 10px', cursor: 'pointer' }}
-                />
-              )}
+                <Icon
+                  name={items.svg}
+                  styles={{ height: items.svg === 'health' ? 40 : 20, margin: '0px 10px', cursor: 'pointer' }} 
+                  onPress={() => window.open(items.url, '_blank')} />
+                )}
             </span>
           </Styles.Card>
         ))}
