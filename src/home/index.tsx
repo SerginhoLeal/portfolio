@@ -12,17 +12,11 @@ const Home: React.FC = () => {
 
   React.useEffect(() => {
     (() => {
-      fetch('http://192.168.15.187:3333/repos', { method: 'GET' })
+      fetch('https://api.github.com/users/SerginhoLeal/repos', { method: 'GET' })
         .then(jsn => jsn.json())
         .then(setGithub)
         .catch(console.log)
     })();
-    // (() => {
-    //   fetch('https://api.github.com/users/SerginhoLeal/repos', { method: 'GET' })
-    //     .then(jsn => jsn.json())
-    //     .then(setGithub)
-    //     .catch(console.log)
-    // })();
   }, []);
 
   return (
