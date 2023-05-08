@@ -1,0 +1,45 @@
+{
+  "web": [
+    {
+      "name": "shop",
+      "description": "",
+      "url": "https://github.com/SerginhoLeal/shop-react-ignite",
+      "preview": "src/assets/img/shop.png"
+    }
+  ],
+  "mobile": [
+    {
+      "name": "todo",
+      "description": "I do with my friend Ruan",
+      "url": "https://github.com/SerginhoLeal/todo",
+      "preview": "src/assets/img/todo.png"
+    },
+    {
+      "name": "rentx",
+      "description": "",
+      "url": "https://github.com/SerginhoLeal/rentx",
+      "preview": "src/assets/img/rentx.png"
+    },
+    {
+      "name": "google photo",
+      "description": "",
+      "url": "https://github.com/SerginhoLeal/expo-library",
+      "preview": "src/assets/img/photo.png"
+    }
+  ],
+  "design": [
+    {
+      "name": "health",
+      "description": "I am a psychologist graduated from the Federal University of Minas Gerais (UFMG). I am currently taking a training course at Instituto C.G. Jung MG, affiliated with the Associação Junguiana do Brasil (AJB) and the International Association for Analytical Psychology (IAAP). I have been working since 2020 in clinical practice as a psychotherapist through the approach of analytical psychology.",
+      "url": "https://www.figma.com/file/Cpnl8UVM6pdt7m7TaEj2E2/health?node-id=358%3A205&t=HelXvi5wBGhMbbAV-1",
+      "preview": "src/assets/img/health.png"
+    },
+    {
+      "name": "portfolio",
+      "description": "",
+      "url": "https://www.figma.com/file/C7cfZfXJTKoowL78tKiSEq/portfolio?node-id=639%3A7&t=HelXvi5wBGhMbbAV-1",
+      "preview": "src/assets/img/portfolio.png"
+    }
+  ],
+  "back": []
+}

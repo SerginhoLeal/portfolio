@@ -13,14 +13,14 @@ export const Container = styled.div`
   right: 0;
   bottom: 0;
 
-  /* padding: 10px; */
-
   background-color: #000000aa;
-  /* box-shadow: .5px .5px 2px .5px #dedede; */
 `;
 
 export const Content = styled.div`
   display: flex;
+
+  justify-content: center;
+  align-items: center;
 
   width: 90%;
   height: 90%;
@@ -28,4 +28,21 @@ export const Content = styled.div`
   background-color: #fff;
 
   border-radius: 2px;
+
+  overflow-x: scroll;
+`;
+
+export const Button = styled.a`
+  border: 1px solid #dedede;
+  margin: 0;
+  padding: 0;
+
+  border-radius: 2px;
+  margin: 10px;
+
+  img {
+    width: 250px;
+    height: 100%;
+    /* object-fit: contain; */
+  }
 `;
