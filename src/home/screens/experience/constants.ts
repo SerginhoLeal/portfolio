@@ -23,9 +23,9 @@ export const graduation = [
 
 export const business = [
   {
-    time: 'Out/2020 ~ 20~~',
+    time: 'Out/2020 ~ Abr/2023',
     business: 'Compass.UOL',
-    what: '...',
+    what: 'Junior Developer with React/React-Native and Designer',
   },
   {
     time: 'Ago/2021 ~ Mai/2022',
