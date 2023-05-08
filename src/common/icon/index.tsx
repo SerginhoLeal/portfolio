@@ -1,21 +1,27 @@
 import React from 'react';
-import { Brush, Mobile, Logo, Monitor, Driver, Graduation, Business } from '../../assets/svg';
+import * as Assets from '../../assets/svg';
 
 interface Props {
   name: string;
+  onPress?: () => void;
   // name: 'mobile' | 'logo' | 'brush'
 };
 
-export const Icon: React.FC<Props> = ({ name }: Props) => {
+export const Icon: React.FC<Props> = ({ name, onPress }: Props) => {
   switch (name) {
-    case 'mobile': return <Mobile />;
-    case 'logo': return <Logo />;
-    case 'brush': return <Brush />;
-    case 'monitor': return <Monitor />;
-    case 'driver': return <Driver />;
-    case 'graduation': return <Graduation />;
-    case 'business': return <Business />;
+    case 'logo': return <Assets.Logo onClick={onPress} />;
+    case 'brush': return <Assets.Brush onClick={onPress} />;
+    case 'driver': return <Assets.Driver onClick={onPress} />;
+    case 'github': return <Assets.Github onClick={onPress} />;
+    case 'mobile': return <Assets.Mobile onClick={onPress} />;
+    case 'monitor': return <Assets.Monitor onClick={onPress} />;
+    case 'discord': return <Assets.Discord onClick={onPress} />;
+    case 'whatsapp': return <Assets.WhatsApp onClick={onPress} />;
+    case 'business': return <Assets.Business onClick={onPress} />;
+    case 'linkedin': return <Assets.Linkedin onClick={onPress} />;
+    case 'instagram': return <Assets.Instagram onClick={onPress} />;
+    case 'graduation': return <Assets.Graduation onClick={onPress} />;
 
-    default: return <Logo />
+    default: return <Assets.Logo />
   }
 }

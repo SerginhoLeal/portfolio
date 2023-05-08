@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 export const Container = styled.section`
   display: flex;
 
-  justify-content: center;
+  justify-content: space-between;
 
   width: 100%;
 
@@ -15,11 +15,11 @@ export const Container = styled.section`
   };
 `;
 
-export const Card = styled.button`
+export const Card = styled.div`
   display: flex;
+  position: relative;
 
-  padding: 1px;
-  margin: 0 5px;
+  margin: 5px;
 
   width: 300px;
   height: 200px;
@@ -30,13 +30,28 @@ export const Card = styled.button`
   flex-direction: column;
   justify-content: center;
 
-  border: 0;
-  /* cursor: pointer; */
-
   background-color: #fff;
   box-shadow: .5px .5px 2px .5px #dedede;
 
-  @media screen and (max-width: 700px) {
-    margin-bottom: 10px;
-  };
+  /* transition: .5s; */
+
+  span {
+    display: none;
+    position: absolute;
+
+    background-color: #fff;
+
+    width: 100%;
+    height: 100%;
+    transition: 2s;
+  }
+
+  :hover {
+    span {
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+    }
+  }
 `;

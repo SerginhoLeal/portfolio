@@ -6,11 +6,14 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "json-server ./src/server.json --host 192.168.15.187 --port 3333 --delay 1000"
   },
   "dependencies": {
+    "json-server": "^0.17.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-slideshow-image": "^4.2.1",
     "styled-components": "^5.3.6",
     "vite-plugin-svgr": "^2.4.0"
   },
