@@ -101,7 +101,7 @@ export const Contacts = styled.div`
 
   margin-top: 10px;
 
-  img {
+  svg {
     padding: 5px;
     margin: 2px;
 
