@@ -24,7 +24,7 @@ const Presentation: React.FC = () => {
         </Text>
 
         <Styles.Contacts>
-          <Icon name='discord' onPress={() => window.open('https://discord.gg/YrqqA47G', '_blank')} />
+          {/* <Icon name='discord' onPress={() => window.open('https://discord.gg/YrqqA47G', '_blank')} /> */}
           <Icon name='whatsapp' onPress={() => window.open('https://wa.me/5531975564133', '_blank')} />
           <Icon name='instagram' onPress={() => window.open('https://www.instagram.com/sergio._.leal/', '_blank')} />
           <Icon name='linkedin' onPress={() => window.open('https://www.linkedin.com/in/sergio-574783162', '_blank')} />
