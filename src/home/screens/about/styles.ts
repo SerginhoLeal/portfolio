@@ -43,6 +43,8 @@ export const Skills = styled.div`
 `;
 
 export const Graph = styled.div`
+  position: relative;
+
   display: flex;
 
   flex-direction: column;
@@ -90,6 +92,18 @@ export const Knob = styled.div<ProgressProps>`
   `};
 `;
 
-export const Presentation = styled.div`
-  /* width: 40%; */
+export const Presentation = styled.div``;
+
+export const Background = styled.div`
+  display: flex;
+
+  position: absolute;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  align-items: center;
+  justify-content: center;
 `;
