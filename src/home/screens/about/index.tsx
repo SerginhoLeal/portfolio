@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 import * as Styles from './styles';
 
 import About_me_img from "../../../assets/img/about_me_img.png";
-import { Tag, Text } from '../../../common';
+import { Icon, Tag, Text } from '../../../common';
 
 import { GitHubProps } from './types';
 
@@ -41,7 +41,7 @@ const About: React.FC<Props> = ({ github }: Props) => {
           <Styles.Presentation>
             <Text color='text' fontSize='small'>
               Ola, o meu nome é Sérgio e sou um desenvolvedor web & mobile com os frameworks React, React-Native e Node.js.<br/><br/>
-              Possuo dois 1 anos e 10 meses de experiência com desenvolvimento web com React e 7 meses com desenvolvimento mobile com React-Native.<br/><br/>
+              Possuo dois 2 anos e 4 meses de experiência com desenvolvimento web com React e mobile com React-Native.<br/><br/>
               Sigo firme na academia, faculdade e nos cursos da Udemy, Rocketseat e KNN IDIOMAS.<br/><br/>
               Atualmente tenho interesse em trabalhar com o desenvolvimento mobile e web no formato remoto para eu conseguir auxiliar com o meu desenvolvimento pessoal, mas estou aberto para novas idéias no meu formato de trabalho.
             </Text>
@@ -56,6 +56,9 @@ const About: React.FC<Props> = ({ github }: Props) => {
                 </Styles.Track>
               </Styles.ContentTrack>
             ))}
+            <Styles.Background>
+              <Icon styles={{ width: 150, height: 150, opacity: .5 }} name='github' />
+            </Styles.Background>
           </Styles.Graph>
         </Styles.Skills>
       </Styles.Container>
