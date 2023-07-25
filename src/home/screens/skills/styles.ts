@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 export const Container = styled.section`
   display: flex;
@@ -33,25 +33,14 @@ export const Card = styled.div`
   background-color: #fff;
   box-shadow: .5px .5px 2px .5px #dedede;
 
-  /* transition: .5s; */
-
   span {
-    display: none;
-    position: absolute;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
 
     background-color: #fff;
 
     width: 100%;
-    height: 100%;
-    transition: 2s;
-  }
-
-  :hover {
-    span {
-      display: flex;
-
-      justify-content: center;
-      align-items: center;
-    }
   }
 `;

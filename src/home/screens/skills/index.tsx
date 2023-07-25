@@ -17,12 +17,13 @@ const Skills: React.FC = () => {
             <Text fontSize='small' fontWeight='bold' color='charleston_green'>{title}</Text>
             <br />
             <Text fontSize='xsmall' color='dark_gray'>{description}</Text>
+            <br />
             <span>
               {logos.map(items =>
                 <Icon
                   name={items.svg}
-                  styles={{ height: items.svg === 'health' ? 40 : 20, margin: '0px 10px', cursor: 'pointer' }} 
-                  onPress={() => window.open(items.url, '_blank')} />
+                  styles={{ height: items.svg === 'health' ? 40 : 20, margin: '0px 10px' }}
+                />
                 )}
             </span>
           </Styles.Card>
