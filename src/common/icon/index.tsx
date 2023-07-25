@@ -27,6 +27,14 @@ export const Icon: React.FC<Props> = ({ name, styles, onPress }: Props) => {
     case 'terra': return <Assets.Terra style={styles} onClick={onPress} />;
     case 'health': return <Assets.Health style={styles} onClick={onPress} />;
     case 'rentx': return <Assets.Rentx style={styles} onClick={onPress} />;
+    case 'redux': return <Assets.Redux style={styles} onClick={onPress} />;
+    case 'next': return <Assets.Next style={styles} onClick={onPress} />;
+    case 'vite': return <Assets.Vite style={styles} onClick={onPress} />;
+    case 'photoshop': return <Assets.PhotoShop style={styles} onClick={onPress} />;
+    case 'aws': return <Assets.AWS style={styles} onClick={onPress} />;
+    case 'jest': return <Assets.Jest style={styles} onClick={onPress} />;
+    case 'ts': return <Assets.Typescript style={styles} onClick={onPress} />;
+    case 'expo': return <Assets.Expo style={styles} onClick={onPress} />;
     case 'todo': return <Assets.Todo style={styles} onClick={onPress} />;
 
     default: return <Assets.Logo />

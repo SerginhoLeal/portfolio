@@ -29,7 +29,15 @@ const About: React.FC<Props> = ({ github }: Props) => {
 
   for (const [chave, valor] of Object.entries(counter)) result.push({ name: chave, quantity: valor });
 
-  const counts = result.sort((a, b) => b.quantity - a.quantity);
+  const counts = result
+    .filter(fil =>
+      fil.name === "typescript" ||
+      fil.name === "reactjs" ||
+      fil.name === "react-native" ||
+      fil.name === "nodejs" ||
+      fil.name === "nextjs"
+    )
+    .sort((a, b) => b.quantity - a.quantity);
 
   return (
     <Fragment>
@@ -40,10 +48,10 @@ const About: React.FC<Props> = ({ github }: Props) => {
         <Styles.Skills>
           <Styles.Presentation>
             <Text color='text' fontSize='small'>
-              Ola, o meu nome é Sérgio e sou um desenvolvedor web & mobile com os frameworks React, React-Native e Node.js.<br/><br/>
+              Prazer, o meu nome é Sérgio e sou um desenvolvedor web & mobile com os frameworks React e React-Native.<br/><br/>
               Possuo dois 2 anos e 4 meses de experiência com desenvolvimento web com React e mobile com React-Native.<br/><br/>
               Sigo firme na academia, faculdade e nos cursos da Udemy, Rocketseat e KNN IDIOMAS.<br/><br/>
-              Atualmente tenho interesse em trabalhar com o desenvolvimento mobile e web no formato remoto para eu conseguir auxiliar com o meu desenvolvimento pessoal, mas estou aberto para novas idéias no meu formato de trabalho.
+              Atualmente tenho interesse em trabalhar com o desenvolvimento web no formato remoto para eu conseguir auxiliar com o meu desenvolvimento pessoal.
             </Text>
           </Styles.Presentation>
 
