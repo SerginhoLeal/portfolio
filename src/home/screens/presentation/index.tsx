@@ -17,16 +17,11 @@ const Presentation: React.FC = () => {
         </Styles.Title>
 
         <Text style={{ maxWidth: 450 }} fontSize='small' fontWeight='medium' color='text'>
-          Software Engineer Web & Mobile and Designer with figma
-          {
-            // <a target="_blank" href='https://compass.uol/en/home/' style={{ color: '#FF674D', zIndex: 1}}>Compass.UOL</a>
-          }
+          Software Engineer Web & Mobile and Designer with figma.
         </Text>
 
         <Styles.Contacts>
-          {/* <Icon name='discord' onPress={() => window.open('https://discord.gg/YrqqA47G', '_blank')} /> */}
           <Icon name='whatsapp' onPress={() => window.open('https://wa.me/5531975564133', '_blank')} />
-          <Icon name='instagram' onPress={() => window.open('https://www.instagram.com/sergio._.leal/', '_blank')} />
           <Icon name='linkedin' onPress={() => window.open('https://www.linkedin.com/in/sergio-574783162', '_blank')} />
           <Icon name='github' onPress={() => window.open('https://github.com/SerginhoLeal', '_blank')} />
         </Styles.Contacts>
