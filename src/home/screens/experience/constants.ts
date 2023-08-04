@@ -10,7 +10,7 @@ export const graduation = [
     what: 'Systems Analysis and Development - Baccalaureate',
   },
   {
-    time: 'Set/2022 ~ 20~~',
+    time: 'Ago/2022 ~ Ago/2023',
     graduation: 'Rocketseat - Course',
     what: 'Technology Education Platform',
   },
