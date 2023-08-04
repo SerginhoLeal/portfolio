@@ -31,10 +31,7 @@ const About: React.FC<Props> = ({ github }: Props) => {
 
   const counts = result
     .filter(fil =>
-      fil.name === "typescript" ||
-      fil.name === "reactjs" ||
-      fil.name === "react-native" ||
-      fil.name === "nodejs" ||
+      fil.name === "typescript" || fil.name === "reactjs" || fil.name === "react-native" || fil.name === "nodejs" ||
       fil.name === "nextjs"
     )
     .sort((a, b) => b.quantity - a.quantity);
