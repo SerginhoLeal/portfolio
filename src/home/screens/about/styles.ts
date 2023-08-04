@@ -72,9 +72,7 @@ export const Track = styled.div`
 
   border-radius: 5px;
 
-  ${({ }) => css`
-    background-color: #EDEDED;
-  `};
+  background-color: #EDEDED;
 
   @media screen and (max-width: 1000px) {
     width: 100%;
