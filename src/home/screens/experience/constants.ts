@@ -25,16 +25,16 @@ export const business = [
   {
     time: 'Out/2020 ~ Abr/2023',
     business: 'Compass.UOL',
-    what: 'Junior Developer with React/React-Native and Designer',
+    what: 'Developer with React/React-Native and Designer',
   },
   {
     time: 'Ago/2021 ~ Mai/2022',
     business: 'Terra Investimentos',
-    what: 'Junior Web Developer with React',
+    what: 'Web Developer with React',
   },
   {
     time: 'Jun/2022 ~ Dez/2022',
     business: 'Maqcampo',
-    what: 'Junior Mobile Developer with React Native',
+    what: 'Mobile Developer with React Native',
   },
 ];
