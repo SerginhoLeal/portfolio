@@ -7,6 +7,8 @@ import Presentation from './screens/presentation';
 import HardSkills from './screens/skills';
 import Experience from './screens/experience';
 
+import { Footer } from '../common';
+
 const Home: React.FC = () => {
   const [github, setGithub] = React.useState([] as any);
 
@@ -20,17 +22,21 @@ const Home: React.FC = () => {
   }, []);
 
   return (
-    <Styles.Container>
+    <>
+      <Styles.Container>
 
-      <Presentation />
+        <Presentation />
 
-      <About github={github} />
+        <About github={github} />
 
-      <HardSkills />
+        <HardSkills />
 
-      <Experience />
+        <Experience />
 
-    </Styles.Container>
+      </Styles.Container>
+
+      <Footer />
+    </>
   );
 };
 

@@ -1,5 +1,3 @@
-import Bold from '../../assets/fonts/Poppins-Bold.ttf'
-
 export const _color = {
   primary: '#FF674D',
   black: '#000',

@@ -36,7 +36,7 @@ export const Card = styled.div`
   span {
     display: flex;
 
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
     background-color: #fff;

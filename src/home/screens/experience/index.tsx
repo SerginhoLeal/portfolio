@@ -17,14 +17,14 @@ const Experience: React.FC = () => {
                 <Styles.Header>
                   <Icon name='graduation' />
                   &nbsp;&nbsp;
-                  <Text fontSize='xxsmall' color='dark_gray' fontWeight='medium'>{time}</Text>
+                  <Text fontSize='thin' color='dark_gray' fontWeight='normal'>{time}</Text>
                 </Styles.Header>
 
                 <Styles.Content>
                   <Styles.Line />
                   <Styles.Info>
-                    <Text fontSize='xsmall' color='text' fontWeight='SemiBold'>{graduation}</Text>
-                    <Text fontSize='xxsmall' color='text' fontWeight='medium'>{what}</Text>
+                    <Text fontSize='extra_light' color='thirty' fontWeight='semi_bold'>{graduation}</Text>
+                    <Text fontSize='extra_light' color='dark_gray' fontWeight='normal'>{what}</Text>
                   </Styles.Info>
                 </Styles.Content>
               </Styles.Timeline>
@@ -33,20 +33,32 @@ const Experience: React.FC = () => {
         </Styles.Card>
         <Styles.Card>
           {
-            business.map(({ time, business, what }) => (
+            business.map(({ time, business, what, outsourced }) => (
               <Styles.Timeline>
                 <Styles.Header>
                   <Icon name='business' />
                   &nbsp;&nbsp;
-                  <Text fontSize='xxsmall' color='dark_gray' fontWeight='medium'>{time}</Text>
+                  <Text fontSize='thin' color='dark_gray' fontWeight='normal'>{time}</Text>
                 </Styles.Header>
 
                 <Styles.Content>
+
                   <Styles.Line />
+
                   <Styles.Info>
-                    <Text fontSize='xsmall' color='text' fontWeight='SemiBold'>{business}</Text>
-                    <Text fontSize='xxsmall' color='text' fontWeight='medium'>{what}</Text>
+                    <Text fontSize='extra_light' color='thirty' fontWeight='semi_bold'>{business}</Text>
+                    <Text fontSize='extra_light' color='dark_gray' fontWeight='normal'>{what}</Text>
+                    {outsourced?.map((out) => (
+                      <Styles.Outsourced>
+                        <Styles.Info>
+                          <Text fontSize='thin' color='dark_gray' fontWeight='normal'>{out.time}</Text>
+                          <Text fontSize='extra_light' color='thirty' fontWeight='semi_bold'>{out.business}</Text>
+                          <Text fontSize='extra_light' color='dark_gray' fontWeight='normal'>{out.what}</Text>
+                        </Styles.Info>
+                      </Styles.Outsourced>
+                    ))}
                   </Styles.Info>
+
                 </Styles.Content>
               </Styles.Timeline>
             ))

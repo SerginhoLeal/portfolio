@@ -33,7 +33,7 @@ export const skills = [
     icon: 'brush',
     logos: [
       {
-        svg: 'photoshop',
+        svg: 'figma',
       },
     ]
   },
