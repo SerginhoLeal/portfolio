@@ -22,8 +22,16 @@ import { ReactComponent as Graduation } from './graduation.svg';
 import { ReactComponent as PortfolioLogo } from './portfolio-logo.svg';
 import { ReactComponent as IgniteShopLogo } from './ignite-shop-logo.svg';
 import { ReactComponent as AWS } from './aws.svg';
-import { ReactComponent as Typescript } from './ts.svg';
 import { ReactComponent as Jest } from './jest.svg';
+import { ReactComponent as MarksLogos } from './marks-logo.svg';
+import { ReactComponent as Trello } from './trello.svg';
+import { ReactComponent as Vercel } from './vercel.svg';
+import { ReactComponent as Figma } from './figma.svg';
+import { ReactComponent as VSCode } from './vscode.svg';
+import { ReactComponent as React } from './react.svg';
+import { ReactComponent as Typescript } from './typescript.svg';
+import { ReactComponent as Styled } from './styled.svg';
+import { ReactComponent as Export } from './export.svg';
 
 export {
   AWS,
@@ -51,5 +59,13 @@ export {
   Typescript,
   Graduation,
   PortfolioLogo,
-  IgniteShopLogo
+  IgniteShopLogo,
+  MarksLogos,
+  Trello,
+  Vercel,
+  Figma,
+  VSCode,
+  React,
+  Styled,
+  Export
 };
