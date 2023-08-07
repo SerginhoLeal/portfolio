@@ -4,3 +4,4 @@ export * from './images';
 export * from './icon';
 export * from './tag';
 export * from './modal';
+export * from './footer';

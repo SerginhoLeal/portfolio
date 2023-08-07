@@ -101,9 +101,14 @@ export const Contacts = styled.div`
 
   margin-top: 10px;
 
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   svg {
-    padding: 5px;
-    margin: 2px;
+    margin: 0 10px;
 
     cursor: pointer;
 

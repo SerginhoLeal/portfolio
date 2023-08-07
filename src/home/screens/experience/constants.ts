@@ -26,15 +26,27 @@ export const business = [
     time: 'Out/2020 ~ Abr/2023',
     business: 'Compass.UOL',
     what: 'Developer with React/React-Native and Designer',
+    outsourced: [
+      {
+        time: 'Ago/2021 ~ Mai/2022',
+        business: 'Terra Investimentos',
+        what: 'Web Developer with React',
+      },
+      {
+        time: 'Jun/2022 ~ Dez/2022',
+        business: 'Maqcampo',
+        what: 'Mobile Developer with React Native',
+      },
+    ]
   },
-  {
-    time: 'Ago/2021 ~ Mai/2022',
-    business: 'Terra Investimentos',
-    what: 'Web Developer with React',
-  },
-  {
-    time: 'Jun/2022 ~ Dez/2022',
-    business: 'Maqcampo',
-    what: 'Mobile Developer with React Native',
-  },
+  // {
+  //   time: 'Ago/2021 ~ Mai/2022',
+  //   business: 'Terra Investimentos',
+  //   what: 'Web Developer with React',
+  // },
+  // {
+  //   time: 'Jun/2022 ~ Dez/2022',
+  //   business: 'Maqcampo',
+  //   what: 'Mobile Developer with React Native',
+  // },
 ];

@@ -5,6 +5,7 @@ import * as Styles from './styles';
 import Me from "../../../assets/img/presentation_Image.png";
 
 import { Title, Text, Icon } from '../../../common';
+import { Github, Linkedin, WhatsApp } from '../../../assets/svg';
 
 const Presentation: React.FC = () => {
   return (
@@ -12,18 +13,23 @@ const Presentation: React.FC = () => {
 
       <Styles.Content>
         <Styles.Title>
-          <Title fontSize='extraLarge' fontWeight='bold'>Software Engineer &</Title>
-          <Title style={{ marginTop: -15 }} fontSize='extraLarge' fontWeight='bold'>Designer</Title>
+          <Title color='primary' fontSize='black' fontWeight='bold'>Software Engineer & <br /> Designer</Title>
         </Styles.Title>
 
-        <Text style={{ maxWidth: 450 }} fontSize='small' fontWeight='medium' color='text'>
+        <Text style={{ maxWidth: 450 }} fontSize='light' fontWeight='normal' color='text'>
           Software Engineer Web & Mobile and Designer with figma.
         </Text>
 
         <Styles.Contacts>
-          <Icon name='whatsapp' onPress={() => window.open('https://wa.me/5531975564133', '_blank')} />
-          <Icon name='linkedin' onPress={() => window.open('https://www.linkedin.com/in/sergio-574783162', '_blank')} />
-          <Icon name='github' onPress={() => window.open('https://github.com/SerginhoLeal', '_blank')} />
+          <a href='https://wa.me/5531975564133' target='_blank'>
+            <WhatsApp />
+          </a>
+          <a href='https://www.linkedin.com/in/sergio-574783162' target='_blank'>
+            <Linkedin />
+          </a>
+          <a href='https://github.com/SerginhoLeal' target='_blank'>
+            <Github fill='#303030' />
+          </a>
         </Styles.Contacts>
 
         <Styles.Hexagon>

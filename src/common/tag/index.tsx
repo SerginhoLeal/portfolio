@@ -11,7 +11,7 @@ export const Tag: React.FC<Props> = ({ title }:Props) => {
   return (
     <Styles.Container>
       <Styles.Content>
-        <Title fontSize='xxlarge' fontWeight='bold'>{title}</Title>
+        <Title color='primary' fontSize='semi_bold' fontWeight='bold'>{title}</Title>
 
         <Styles.FirstLine />
         <Styles.SecondLine />

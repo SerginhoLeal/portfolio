@@ -53,9 +53,9 @@ export const Timeline = styled.div`
   flex-direction: column;
 `;
 
-export const Line = styled.div`
+export const Line = styled.span`
   width: 3px;
-  height: 40px;
+  height: 100%;
 
   border-radius: 2px;
 
@@ -78,4 +78,10 @@ export const Info = styled.div`
       margin-top: -5px;
     }
   }
+`;
+
+export const Outsourced = styled.div`
+  display: flex;
+  margin-left: 10px;
+  margin-top: 10px;
 `;

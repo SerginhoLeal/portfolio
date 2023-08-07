@@ -1,7 +1,6 @@
 import styled, { css } from "styled-components";
 
-import { TextProps } from './types';
-import { _color, _fontSize, _fontWeight } from './constants';
+import { ThemeProps } from '../../styles/theme';
 
 const prefix = css`
   margin: 2px 0;
@@ -11,20 +10,21 @@ const prefix = css`
   font-family: 'Poppins', sans-serif;
 `;
 
-export const Text = styled.p<TextProps>`
+export const Text = styled.p<ThemeProps>`
   ${prefix};
-  ${({ color = 'primary', fontSize = 'medium', fontWeight = 'medium' }: TextProps) => css`
-    color: ${_color[color]};
-    font-size: ${_fontSize[fontSize]};
-    font-weight: ${_fontWeight[fontWeight]};
+  ${({ theme, color = 'default', fontSize = 'normal', fontWeight = 'normal', spacing = 'normal' }) => css`
+    color: ${theme.colors[color]};
+    font-size: ${theme.fontSize[fontSize]};
+    font-weight: ${theme.fontWeight[fontWeight]};
+    letter-spacing: ${theme.spacing[spacing]};
   `}
 `;
 
-export const Title = styled.h1<TextProps>`
+export const Title = styled.h1<ThemeProps>`
   ${prefix};
-  ${({ color = 'primary', fontSize = 'medium', fontWeight = 'medium' }: TextProps) => css`
-    color: ${_color[color]};
-    font-size: ${_fontSize[fontSize]};
-    font-weight: ${_fontWeight[fontWeight]};
+  ${({ theme, color = 'default', fontSize = 'normal', fontWeight = 'normal' }) => css`
+    color: ${theme.colors[color]};
+    font-size: ${theme.fontSize[fontSize]};
+    font-weight: ${theme.fontWeight[fontWeight]};
   `}
 `;

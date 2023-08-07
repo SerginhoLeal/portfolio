@@ -44,7 +44,7 @@ const About: React.FC<Props> = ({ github }: Props) => {
 
         <Styles.Skills>
           <Styles.Presentation>
-            <Text color='text' fontSize='small'>
+            <Text color='thirty' fontSize='light' fontWeight='normal'>
               Prazer, o meu nome é Sérgio e sou um desenvolvedor web & mobile com os frameworks React e React-Native.<br/><br/>
               Possuo dois 2 anos e 4 meses de experiência com desenvolvimento web com React e mobile com React-Native.<br/><br/>
               Sigo firme na academia, faculdade e nos cursos da Udemy, Rocketseat e KNN IDIOMAS.<br/><br/>
@@ -55,7 +55,7 @@ const About: React.FC<Props> = ({ github }: Props) => {
           <Styles.Graph>
             {counts.map((items, index) => index < 7 && (
               <Styles.ContentTrack>
-                <Text fontSize='small'>{items.name} - {items.quantity} Projects</Text>
+                <Text color='primary' fontSize='light'>{items.name} - {items.quantity} Projects</Text>
                 <Styles.Track>
                   <Styles.Knob progress={(items.quantity * 100) / counts[0].quantity} />
                 </Styles.Track>
