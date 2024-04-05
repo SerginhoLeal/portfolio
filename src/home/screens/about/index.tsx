@@ -48,7 +48,7 @@ const About: React.FC<Props> = ({ github }: Props) => {
               Prazer, o meu nome é Sérgio e sou um desenvolvedor web & mobile com os frameworks React e React-Native.<br/><br/>
               Possuo dois 2 anos e 4 meses de experiência com desenvolvimento web com React e mobile com React-Native.<br/><br/>
               Sigo firme na academia, faculdade e nos cursos da Udemy, Rocketseat e KNN IDIOMAS.<br/><br/>
-              Atualmente tenho interesse em trabalhar com o desenvolvimento web no formato remoto para eu conseguir auxiliar com o meu desenvolvimento pessoal.
+              Atualmente tenho interesse em trabalhar no formato híbrido.
             </Text>
           </Styles.Presentation>
 
