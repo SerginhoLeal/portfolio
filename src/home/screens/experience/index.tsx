@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 import * as Styles from './styles';
 
 import { Text, Icon, Tag } from '../../../common';
-import { graduation,business } from './constants';
+import { graduation, business } from './constants';
 
 const Experience: React.FC = () => {
   return (

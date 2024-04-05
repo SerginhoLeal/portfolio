@@ -39,14 +39,14 @@ export const business = [
       },
     ]
   },
-  // {
-  //   time: 'Ago/2021 ~ Mai/2022',
-  //   business: 'Terra Investimentos',
-  //   what: 'Web Developer with React',
-  // },
-  // {
-  //   time: 'Jun/2022 ~ Dez/2022',
-  //   business: 'Maqcampo',
-  //   what: 'Mobile Developer with React Native',
-  // },
+  {
+    business: 'Laks',
+    time: 'Dez/2023 ~ Mar/2024',
+    what: 'Developer with React and Designer',
+  },
+  {
+    business: 'Pai da Amazon',
+    time: 'Mar/2024 ~ at the moment',
+    what: 'VideoMaker using After Effects and Capcut',
+  }
 ];
