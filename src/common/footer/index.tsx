@@ -22,9 +22,7 @@ export const Footer: React.FC = () => {
       </Styles.Center>
 
       <Styles.Right>
-        <Tools icon={Github} link="portal-b2c-marks" url='https://github.com/SerginhoLeal/portal-b2c-marks' />
-        <Tools icon={Figma} link="figma.com/mark's joias" url="https://www.figma.com/file/CDL5uzDyjshTSSiyxlsva8/Mark's-Joias?type=design&node-id=112%3A206&mode=design&t=4mcpEtHGgnKVzOxB-1" />
-        <Tools icon={Trello} link="trello.com/mark's joias" url='https://trello.com/invite/b/cLVNHiys/ATTI77b7bb70843a814a81fae5699f958704879A7449/marks-joias'/>
+        <Tools icon={Github} link="portal-b2c-marks" url='https://github.com/dyson-mori/portal-b2c-marks' />
         <Tools icon={Vercel} link="portal-b2c-marks.vercel.app" url='https://portal-b2c-marks.vercel.app/'/>
 
         <Styles.Techs>
