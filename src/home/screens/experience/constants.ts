@@ -15,7 +15,7 @@ export const graduation = [
     what: 'Technology Education Platform',
   },
   {
-    time: 'Set/2022 ~ 20~~',
+    time: 'Set/2022 ~ Ago/2023',
     graduation: 'KNN Idiomas - English',
     what: 'English Course',
   }
@@ -46,7 +46,7 @@ export const business = [
   },
   {
     business: 'Pai da Amazon',
-    time: 'Mar/2024 ~ at the moment',
+    time: 'Mar/2024 ~ Jun/2024',
     what: 'VideoMaker using After Effects and Capcut',
   }
 ];
